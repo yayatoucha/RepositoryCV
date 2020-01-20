@@ -5,12 +5,13 @@ body{
 	background-position: top center;
 	background-size: cover;
 	color:  white;
+	text-shadow: 2px 2px 3px black;
 	font-size: 1.1em;
 	text-align: center;
 }
 
 a{
-	color: #826e17;
+	color: #2776b9;
 	text-decoration: none;
 }
 
@@ -27,13 +28,13 @@ a{
 }
 
 a:hover {
-	color: #aaa541;
+	color: #feeeb3;
 	text-decoration: none;
 }
 
 h1{
 	font-family: 'promocyjamedium', Comic Sans MS ;
-	text-shadow: 15px 15px 2px black;
+	text-shadow: 10px 10px 2px black;
 	font-size: 2.5em;
 	 }
 	
@@ -44,7 +45,7 @@ h3{
 }
 
 h3{
-	color: #c1a562;
+	color: #7b0f6e;
 }
 
 .content {
@@ -55,11 +56,11 @@ h3{
 
 img {
 	box-shadow: 15px 15px 15px black;
-	border: 5px #614e0c ridge;
+	border: 5px #64317e ridge;
 }
 
 strong {
-	color: #c1a562
+	color: #e76484;
 }
 
 aside {
@@ -104,10 +105,10 @@ article{
 	border-radius: 10px;
 }
 article:hover{
+	background-color: rgba(78, 36, 68, 0.2);
 	box-shadow: 15px 15px 15px black;
-	border: 5px #614e0c ridge;
+	border: 5px #64317e ridge;
 	border-radius: 10px;
-	background-color: rgba(193,165,98,0.1)
 }
 
 .laura_ingalls{
