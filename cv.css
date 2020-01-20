@@ -1,0 +1,134 @@
+body{
+	background-image: url("image/fond.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	color:  white;
+	font-size: 1.1em;
+	text-align: center;
+}
+
+a{
+	color: #826e17;
+	text-decoration: none;
+}
+
+@font-face {
+    font-family: 'promocyjamedium';
+    src: url('fonts/promocyja-webfont.eot');
+    src: url('fonts/promocyja-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/promocyja-webfont.woff2') format('woff2'),
+         url('fonts/promocyja-webfont.woff') format('woff'),
+         url('fonts/promocyja-webfont.ttf') format('truetype'),
+         url('fonts/promocyja-webfont.svg#promocyjamedium') format('svg');
+    font-weight: normal;
+    font-style: normal;    
+}
+
+a:hover {
+	color: #aaa541;
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'promocyjamedium', Comic Sans MS ;
+	text-shadow: 15px 15px 2px black;
+	font-size: 2.5em;
+	 }
+	
+h3{
+	font-family: 'promocyjamedium', Comic Sans MS ;
+	text-shadow: 15px 15px 2px black;
+	font-size: 2em;
+}
+
+h3{
+	color: #c1a562;
+}
+
+.content {
+	width: auto;
+	flex: 2;
+	border: 10px #614e0c double;
+	border-radius: 20px;
+	background-color: rgba(0, 0, 0, 0.6);
+	box-shadow: 15px 15px 15px black;
+	padding-bottom: 100px;
+}
+
+img {
+	box-shadow: 15px 15px 15px black;
+	border: 5px #614e0c ridge;
+}
+
+strong {
+	color: #c1a562
+}
+
+aside {
+	background: url("image/lisere.jpg");
+	max-width: 300px;
+	margin-right: 20px;
+	flex: 1;
+	text-align: center;
+	border: 10px #614e0c double;
+	border-radius: 20px;
+	box-shadow: 15px 15px 15px black;
+}
+
+aside h3, aside a{
+	color:#fdd87f;
+	text-shadow: none;
+	font-family: 'promocyjamedium', Comic Sans MS ;
+	font-size: 1.5em;
+}
+
+
+aside a:hover{
+	color:#c38d4f;
+}
+
+
+#page{
+	display: flex;
+	font-family: sans-serif;
+}
+
+section{
+	display: flex;
+	justify-content: space-around;
+}
+
+article{
+	width: 30%;
+	text-align: justify;
+	box-shadow: none;
+	border: 5px rgba(0,0,0,0) ridge;
+	border-radius: 10px;
+}
+article:hover{
+	box-shadow: 15px 15px 15px black;
+	border: 5px #614e0c ridge;
+	border-radius: 10px;
+	background-color: rgba(193,165,98,0.1)
+}
+
+.laura_ingalls{
+	float: right;
+	margin-right: 7%
+}
+
+@media screen and (max-width: 1024px)
+{
+	aside{
+		display: none;
+	}
+
+	section{
+		display: block;
+	}
+	article{
+		width: 100%;
+	}
+}
