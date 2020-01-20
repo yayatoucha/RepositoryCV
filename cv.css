@@ -64,12 +64,14 @@ strong {
 }
 
 aside {
-	background: url("image/lisere.jpg");
+	background: url("image/fond2.jpg");
+	background-size: 50%;
+	background-attachment: fixed;
 	max-width: 300px;
 	margin-right: 20px;
 	flex: 1;
 	text-align: center;
-	border: 10px #614e0c double;
+	border: 10px #64317e double;
 	border-radius: 20px;
 	box-shadow: 15px 15px 15px black;
 }
